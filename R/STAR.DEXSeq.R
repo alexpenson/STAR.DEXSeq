@@ -8,7 +8,6 @@
 #' @importFrom S4Vectors DataFrame
 test_from_the_docs <- function(){
 
-  S4Vectors::DataFrame()
   if(packageVersion("DEXSeq") < "1.16.10"){
     warning("may need to update DEXSeq")
   }
